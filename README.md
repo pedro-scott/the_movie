@@ -4,6 +4,17 @@
 
 ![Bagde](https://img.shields.io/static/v1?label=nativo&message=Android&color=<COLOR>&style=<STYLE>&logo=<LOGO>)
 
+### 📜 Instruções
+
+Para executar o aplicativo, abra o projeto movies-feature e execute o seguinte comando no terminal:
+
+- CMD: gradlew movies-feature:publishToMavenLocal
+- BASH, LINUX e MAC: ./gradlew movies-feature:publishToMavenLocal
+
+Feito isso, basta abrir o projeto movies-application e o executar :D
+
+<br/>
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
