@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvNowPlayinLayout"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="@dimen/corner_radius_default"
+    app:cardBackgroundColor="@color/grey_dark_default">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivNowPlayingPoster"
+            android:contentDescription="@string/content_desc_poster"
+            android:layout_width="@dimen/width_large_poster"
+            android:layout_height="@dimen/height_large_poster"
+            android:background="@drawable/background_rounded"
+            tools:src="@drawable/poster_example"
+            android:adjustViewBounds="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <View
+            android:id="@+id/vNowPlayingBackgroundAverage"
+            android:layout_width="@dimen/width_view_vote_count"
+            android:layout_height="@dimen/height_view_vote_count"
+            android:background="@drawable/background_rounded"
+            app:layout_constraintTop_toTopOf="@id/ivNowPlayingPoster"
+            app:layout_constraintEnd_toEndOf="@id/ivNowPlayingPoster"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvNowPlayingAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="10.0"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="@id/vNowPlayingBackgroundAverage"
+            app:layout_constraintBottom_toBottomOf="@id/vNowPlayingBackgroundAverage"
+            app:layout_constraintStart_toStartOf="@id/vNowPlayingBackgroundAverage"
+            app:layout_constraintEnd_toStartOf="@id/ivNowPlayingStars"
+            />
+
+        <ImageView
+            android:id="@+id/ivNowPlayingStars"
+            android:importantForAccessibility="no"
+            android:layout_width="@dimen/vote_count_icon_size"
+            android:layout_height="@dimen/vote_count_icon_size"
+            android:src="@drawable/ic_star"
+            app:tint="@color/white"
+            app:layout_constraintTop_toTopOf="@id/vNowPlayingBackgroundAverage"
+            app:layout_constraintBottom_toBottomOf="@id/vNowPlayingBackgroundAverage"
+            app:layout_constraintStart_toEndOf="@id/tvNowPlayingAverage"
+            app:layout_constraintEnd_toEndOf="@id/vNowPlayingBackgroundAverage"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

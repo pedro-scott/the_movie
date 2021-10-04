@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_backdrop">350dp</dimen>
+
+    <dimen name="width_large_poster">190dp</dimen>
+    <dimen name="height_large_poster">285dp</dimen>
+    <dimen name="width_small_poster">75dp</dimen>
+    <dimen name="height_small_poster">110dp</dimen>
+
+    <dimen name="width_view_vote_count">60dp</dimen>
+    <dimen name="height_view_vote_count">30dp</dimen>
+
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+
+    <dimen name="fab_background_transparent_elevation">1dp</dimen>
+    <dimen name="button_retry_elevation">6dp</dimen>
+
+    <dimen name="like_icon_size">40dp</dimen>
+    <dimen name="vote_count_icon_size">20dp</dimen>
+
+    <dimen name="title_size_large">25sp</dimen>
+    <dimen name="title_size_small">20sp</dimen>
+    <dimen name="info_size">18sp</dimen>
+
+    <dimen name="corner_radius_default">8dp</dimen>
+
+    <dimen name="divider_size">1dp</dimen>
+</resources>

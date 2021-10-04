@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">movies-application</string>
+    <string name="button_start_movies_feature">Start Movies Feature</string>
+</resources>

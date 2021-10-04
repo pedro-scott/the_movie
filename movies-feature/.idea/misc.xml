@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable-v24/ic_likes.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable/background_rounded.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable/gradient_shape.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable/ic_back_1.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable/ic_likes.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable/ic_star.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/drawable/ic_views.xml" value="0.3828125" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/activity_main_lib.xml" value="0.2033514492753623" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/fragment_detail.xml" value="0.35260416666666666" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/fragment_favorite.xml" value="0.33" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/fragment_home.xml" value="0.25269203158650394" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/now_playing_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/layout/similar_movie_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/menu/top_app_bar_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/app/src/main/res/menu/top_app_bar_home_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/my_repos/androidTest/movies-feature/movies-feature/src/main/res/layout/activity_main_lib.xml" value="0.19927536231884058" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
